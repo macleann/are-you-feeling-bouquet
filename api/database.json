@@ -1,0 +1,196 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "name": "Rose"
+        },
+        {
+            "id": 2,
+            "name": "Lily"
+        },
+        {
+            "id": 3,
+            "name": "Sunflower"
+        },
+        {
+            "id": 4,
+            "name": "Daisy"
+        },
+        {
+            "id": 5,
+            "name": "Tulip"
+        }
+        
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Petal Power",
+            "address": "999 Rose Ave",
+            "city": "Miami",
+            "state": "FL",
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "name": "Blooms & Bouquets",
+            "address": "789 Market St",
+            "city": "San Francisco",
+            "state": "CA",
+            "distributorId": 2
+        },
+        {
+            "id": 3,
+            "name": "The Garden of Eden",
+            "address": "456 Elm St",
+            "city": "Dallas",
+            "state": "TX",
+            "distributorId": 1
+        },
+        {
+            "id": 4,
+            "name": "Floral Fantasy",
+            "address": "333 Broad St",
+            "city": "New York",
+            "state": "NY",
+            "distributorId": 3
+        },
+        {
+            "id": 5,
+            "name": "The Stem Cellar",
+            "address": "111 Maple Ave",
+            "city": "Los Angeles",
+            "state": "CA",
+            "distributorId": 2
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "The Petal Pros Supply Co.",
+            "address": "789 Industrial Blvd",
+            "city": "Miami",
+            "state": "FL"
+        },
+        {
+            "id": 2,
+            "name": "Bloom and Grow Distributors",
+            "address": "123 Commercial Dr",
+            "city": "Los Angeles",
+            "state": "CA"
+        },
+        {
+            "id": 3,
+            "name": "Wholesale Blossoms Inc.",
+            "address": "456 Business Way",
+            "city": "New York",
+            "state": "NY"
+        }
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Green Thumbs Nursery"
+        },
+        {
+            "id": 2,
+            "name": "Blossoming Beauty Nursery"
+        },
+        {
+            "id": 3,
+            "name": "The Petal Patch"
+        },
+        {
+            "id": 4,
+            "name": "Garden's Paradise Nursery"
+        },
+        {
+            "id": 5,
+            "name": "Nature's Nursery"
+        }
+    ],
+    "flowerNurseries": [
+        {
+            "id": 1,
+            "flowerId": 1,
+            "nurseryId": 1
+        },
+        {
+            "id": 2,
+            "flowerId": 5,
+            "nurseryId": 2
+        },
+        {
+            "id": 3,
+            "flowerId": 2,
+            "nurseryId": 3
+        },
+        {
+            "id": 4,
+            "flowerId": 4,
+            "nurseryId": 4
+        },
+        {
+            "id": 5,
+            "flowerId": 3,
+            "nurseryId": 5
+        },
+        {
+            "id": 6,
+            "flowerId": 5,
+            "nurseryId": 1
+        },
+        {
+            "id": 7,
+            "flowerId": 1,
+            "nurseryId": 2
+        },
+        {
+            "id": 8,
+            "flowerId": 4,
+            "nurseryId": 3
+        },
+        {
+            "id": 9,
+            "flowerId": 3,
+            "nurseryId": 4
+        },
+        {
+            "id": 10,
+            "flowerId": 2,
+            "nurseryId": 5
+        }
+    ],
+    "distributorNurseries": [
+        {
+            "id": 1,
+            "distributorId": 1,
+            "nurseryId": 5
+        },
+        {
+            "id": 2,
+            "distributorId": 1,
+            "nurseryId": 4
+        },
+        {
+            "id": 3,
+            "distributorId": 2,
+            "nurseryId": 3
+        },
+        {
+            "id": 4,
+            "distributorId": 2,
+            "nurseryId": 2
+        },
+        {
+            "id": 5,
+            "distributorId": 3,
+            "nurseryId": 1
+        },
+        {
+            "id": 6,
+            "distributorId": 3,
+            "nurseryId": 5
+        }
+    ]
+}
